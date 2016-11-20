@@ -1,0 +1,140 @@
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+/* zelo svetlo modra #
+ * svetlo modra #7EC3EC
+ * temno modra #104B74
+ * rdečkasto-rjava #680106
+ * temno siva #3E3E3E
+ * svetlo siva #666666
+ * modra - ozadje #1C91DF
+ */
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: bold; }
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { font-weight: bold; }
+
+hr {
+  border-width: 2px 0 0;
+  clear: both;
+  margin: 1.25em 0 1.1875em;
+  height: 0; }
+
+.subheader { font-weight: bold; }
+
+dl {
+  margin: 0 0 0.25em;
+  padding: 0.5625em 1.25em 0 0.5625em;
+  border-left: 1px solid #dddddd;
+  }
+
+dl dt {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 0.945em;
+   }
+
+dl dd dl {
+  margin-left: 1.5em;
+  margin-bottom: 0;
+  }
+
+dt, dd { 
+  display: inline;
+  margin: 0;
+   }
+
+dd + dt::before {
+  content: "\A";
+  white-space: pre;
+}
+dt {
+  font-weight: bold;
+}
+dt + dt::before {
+  content: "\007C" " ";
+}
+dt + dd::before {
+  content: "\2014" " ";
+}
+dd + dd::before {
+  content: "\007C" " ";
+}
+
+dl.border dt {
+  margin-bottom: 0.0em;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.845em;
+  list-style-type: circle; }
+dl.border dd {
+  margin-bottom: 0.75em;
+  width:200px;
+  border-style:solid;
+  border-width:0.2px; }
+
+ul.square li, ul.circle li, ul.disc li { margin-left: 20px; }
+
+ul.square li a, ul.circle li a, ul.disc li a {
+    text-decoration: underline; }
+
+ul.square li a.person, ul.square li a.place, ul.circle li a.person, ul.circle li a.place, ul.disc li a.person, ul.disc li a.place {
+    text-decoration: none; 
+    border-bottom: 1px dashed #999;
+}
+
+
+.top-bar .toggle-topbar.menu-icon a { text-indent: -85px; }
+        
+  
+/* -----------------------------------------
+   Page Name 1 moji dodani
+----------------------------------------- */
+section.main-section { margin-left:10px; }
+
+
+caption { font-style: italic;
+          text-align: left;
+          margin-bottom: 0.4em;
+          width: 100%; }
+
+sub.citation { color: #7f7f7f;
+               font-size: 11px;
+               border-style:solid;
+               border-width:thin;
+               margin-left:2px;
+               padding-left:4px; }
+
+img { margin-top: 3px; }
+
+.glavaNaslov { font-size: 1.687em; }
+.glava { margin-bottom: 7px; margin-top: 21px; }
+.naslovnicaAvtor { text-align: center; font-size: 1.437em;}
+.naslovnicaBesedilo { text-align: center; font-size: 1.375em;}
+.podnaslov { text-align: center; font-size: 1.687em;}
+.note-aside {
+    font-size: 0.875em;
+    line-height: 1.00;
+    font-style: italic; }
+.CIP-obroba { 
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-right:200px;
+  margin-left:0px;
+  border-style:solid;
+  border-width:0.2px;
+  padding:10px; }
+
+.listHeader {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1em;
+  font-style: normal;
+  color: #222222;
+  margin-top: 0.0em;
+  margin-bottom: 0.0em;
+  line-height: 1.6; }
+
+/* -----------------------------------------
+   Page Name 2 DataTable
+----------------------------------------- */
+
+table.display { cellpadding: 0; cellspacing: 0; border: 0; width: 100%; }

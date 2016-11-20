@@ -1,0 +1,240 @@
+body { color: #272727; background-image : url('http://sistory.si/images/index/background.png'); background-repeat : repeat-x; }
+
+h1, h2, h3, h4, h5, h6 { color: #8e130b; }
+h1 { font-size: 2.350em; }
+h2 { font-size: 1.875em; }
+h3 { font-size: 1.540em; }
+h4 { font-size: 1.275em; }
+h5 { font-size: 1.100em; }
+h6 { font-size: 0.945em; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #8e130b; }
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #8e130b; }
+
+hr {
+  border: solid #7f7f7f;
+  border-width: 2px 0 0;
+  clear: both;
+  margin: 1.25em 0 1.1875em;
+  height: 0; }
+
+p {
+  font-size: 0.945em;
+  line-height: 1.4;
+  margin-bottom: 1em; }
+
+.subheader { color: #7f7f7f; }
+
+p a {
+    color: #8e130b;
+    text-decoration: underline; }
+p a:hover { color: #8e130b; }
+
+table a {
+    color: #8e130b;
+    text-decoration: underline; }
+table a:hover { color: #8e130b; }
+
+/* Blockquotes */
+blockquote {
+  font-size: 0.945em; }
+
+blockquote,
+blockquote p {
+  line-height: 1.4; }
+
+blockquote a {
+  color: #8e130b;
+  text-decoration: underline; }
+blockquote a:hover { color: #8e130b; }
+
+dl dt {
+  margin-bottom: 0.0em;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.845em; }
+dl dd {
+  margin-bottom: 0.75em;
+  width:200px;
+  border-style:solid;
+  border-width:0.2px;
+  font-size: 0.945em; }
+
+ul.square li, ul.circle li, ul.disc li { margin-left: 20px; }
+
+ul.square li a, ul.circle li a, ul.disc li a {
+    color: #8e130b;
+    text-decoration: underline; }
+
+button, .button { background-color: #8e130b; }
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #5f0d07; }
+
+/* Sections */
+    .section-container > section > .title, .section-container > .section > .title, .section-container.auto > section > .title, .section-container.auto > .section > .title {
+      background-color: #efefef;
+       }
+      .section-container > section > .title a, .section-container > .section > .title a, .section-container.auto > section > .title a, .section-container.auto > .section > .title a {
+        color: #8e130b;
+        text-decoration: none;
+         }
+      .section-container > section > .title:hover, .section-container > .section > .title:hover, .section-container.auto > section > .title:hover, .section-container.auto > .section > .title:hover {
+        background-color: #c3c3c3; }
+    .section-container > section .content, .section-container > .section .content, .section-container.auto > section .content, .section-container.auto > .section .content {
+      background-color: white; }
+      
+    .section-container > section.active > .title, .section-container > .section.active > .title, .section-container.auto > section.active > .title, .section-container.auto > .section.active > .title {
+      background: #8e130b; }
+      .section-container > section.active > .title a, .section-container > .section.active > .title a, .section-container.auto > section.active > .title a, .section-container.auto > .section.active > .title a {
+        color: white;
+        text-decoration: none;}
+    .section-container > section .content, .section-container > .section .content, .section-container.auto > section .content, .section-container.auto > .section .content {
+      border: 1px solid #8e130b; }
+      
+.section-container.vertical-nav > section > .title, .section-container.vertical-nav > .section > .title {
+    color: #8e130b;
+    background-color: #d9d9d9;
+    padding: 0.9375em;
+    font-size: 0.875em;
+    display: inline-block;}
+        .section-container.vertical-nav > section > .title a, .section-container.vertical-nav > .section > .title a {
+          color: #8e130b;
+          text-decoration: none;
+          padding: 0.000em;
+          font-size: 1.000em; }
+        .section-container.vertical-nav > section > .title:hover, .section-container.vertical-nav > .section > .title:hover {
+          background-color: #c3c3c3; }
+    .section-container.vertical-nav > section.active > .title, .section-container.vertical-nav > .section.active > .title {
+        background: #8e130b;
+        color: white; }
+        .section-container.vertical-nav > section.active > .title a, .section-container.vertical-nav > .section.active > .title a {
+          color: white; }
+    .section-container.vertical-nav > section .content, .section-container.vertical-nav > .section .content {
+        background-color: #efefef; }
+    .section-container.vertical-nav > section.active > .content, .section-container.vertical-nav > .section.active > .content {
+        border: solid 1px #8e130b; }
+        
+/* Side Nav */
+  .side-nav li a {
+      color: #4d4d4d; }
+    .side-nav li a:hover {
+      background-color: #d9d9d9; }
+    .side-nav li.active > a:first-child {
+      color: #8e130b;
+      font-weight: bold; }
+    .side-nav li.divider {
+      border-top-color: #8e130b; }
+  
+.top-bar {
+    background: #d9d9d9; }
+        .top-bar .toggle-topbar.menu-icon a { text-indent: -60px; color: #8e130b; }
+            .top-bar .toggle-topbar.menu-icon a span {
+                -webkit-box-shadow: 0 10px 0 1px #8e130b, 0 16px 0 1px #8e130b, 0 22px 0 1px #8e130b;
+                box-shadow: 0 10px 0 1px #8e130b, 0 16px 0 1px #8e130b, 0 22px 0 1px #8e130b; }
+        .top-bar.expanded { height: 250px; }
+        .top-bar.expanded .title-area {
+            background: #d9d9d9; }    
+    .top-bar-section ul { background: #d9d9d9; }
+    .top-bar-section ul li > a {
+        background: #d9d9d9;
+        color: #8e130b;}
+        .top-bar-section ul li > a:hover { background: #c3c3c3; }
+    .top-bar-section ul li.active > a {
+        background: #8e130b;
+        color: white; }
+        .top-bar-section ul li.active > a:hover {
+            background: #5f0d07;
+            color: white; }            
+    .top-bar.expanded .title-area { background: #5f0d07; }
+    .top-bar.expanded .toggle-topbar a { color: #888888; }
+        .top-bar.expanded .toggle-topbar a span {
+            -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
+            box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
+    .top-bar-section .dropdown li.title h5 a {
+          color: #8e130b;
+          background: #c3c3c3;
+          font-weight: bold; }
+    .top-bar-section .has-dropdown > a:after {
+      border-color: transparent transparent transparent #8e130b; }
+
+@media only screen and (min-width: 58.75em)
+{
+  .top-bar {
+    background: #d9d9d9; }
+    .top-bar.expanded {
+      background: #d9d9d9; }
+  .top-bar-section 
+        .top-bar-section ul li .js-generated {
+          display: none; }
+    .top-bar-section li a:not(.button) {
+      background: #d9d9d9; }
+      .top-bar-section li a:not(.button):hover {
+        background: #c3c3c3; }
+    .top-bar-section .has-dropdown > a:after {
+        border-color: #8e130b transparent transparent transparent; }
+    .top-bar-section .dropdown li a {
+        color: #8e130b;
+        background: #d9d9d9; }
+    .top-bar-section .dropdown li label {
+        background: #d9d9d9; }
+    .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+      border-right: solid 1px white;
+      border-left: solid 1px white; }
+    .top-bar-section .has-form {
+      background: #111111; }
+}
+/* Requires globals.css */
+/*.nav-bar { background: #d9d9d9; margin-top: 5px; }*/
+/*.nav-bar > li > a { color: #8e130b; }*/
+/*.nav-bar > li:hover { background: #c3c3c3; }*/
+
+/* Requires globals.css app.js */
+/* Tabs ---------------------- */
+/*dl.tabs.vertical dd.active a { background: #8e130b; }*/
+
+
+/* -----------------------------------------
+   Page Name 1 moji dodani
+----------------------------------------- */
+
+li { font-size: 0.945em; }
+li a { color: #8e130b; }
+
+caption { font-size: 1.100em;
+          font-style: italic;
+          text-align: left;
+          margin-bottom: 0.4em;
+          width: 100%; }
+
+sub.citation { color: #7f7f7f;
+               border-style:solid;
+               border-width:thin;
+               margin-left:2px;
+               padding-left:2px; }
+
+img { margin-top: 3px; }
+
+.glavaNaslov { font-size: 1.687em; }
+.glava { margin-bottom: 7px; margin-top: 21px; }
+.naslovnicaAvtor { text-align: center; font-size: 1.437em;}
+.naslovnicaBesedilo { text-align: center; font-size: 1.375em;}
+.podnaslov { text-align: center; font-size: 1.687em;}
+.note-aside {
+    font-size: 0.875em;
+    line-height: 1.00;
+    font-style: italic; }
+.CIP-obroba { 
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-right:200px;
+  margin-left:0px;
+  border-style:solid;
+  border-width:0.2px;
+  padding:10px; }
+
+/* -----------------------------------------
+   Page Name 2 DataTable
+----------------------------------------- */
+
+table.display { cellpadding: 0; cellspacing: 0; border: 0; width: 100%; }

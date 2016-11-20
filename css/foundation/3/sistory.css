@@ -1,0 +1,53 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+body { color: #272727; background-image : url('http://sistory.si/images/index/background.png'); background-repeat : repeat-x; }
+
+/* Links ---------------------- */
+p a { text-decoration: underline; }
+
+/* Base Type Styles Using Modular Scale ---------------------- */
+h1, h2, h3, h4, h5, h6 { color: #8e130b; }
+h1 { font-size: 37px; }
+h2 { font-size: 27px; }
+h3 { font-size: 23px; }
+h4 { font-size: 17px; }
+h5 { font-size: 14px; }
+h6 { font-size: 11px; }
+
+.subheader { color: #7f7f7f; }
+
+/* Requires globals.css */
+.nav-bar { background: #d9d9d9; margin-top: 5px; }
+.nav-bar > li > a { color: #8e130b; }
+.nav-bar > li:hover { background: #c3c3c3; }
+/* Requires globals.css app.js */
+/* Tabs ---------------------- */
+dl.tabs.vertical dd.active a { background: #8e130b; }
+
+
+/* -----------------------------------------
+   Page Name 1 moji dodani
+----------------------------------------- */
+
+.glava { margin-bottom: 7px; margin-top: 21px; }
+
+p img.noga { margin: 0;}
+
+/* -----------------------------------------
+   Page Name 2 DataTable
+----------------------------------------- */
+
+table.display { cellpadding: 0; cellspacing: 0; border: 0; width: 100%; }

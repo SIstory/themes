@@ -1,0 +1,39 @@
+
+div.stdheader{
+    text-align:center;
+}
+
+div.docAuthor{
+    border-bottom:3pt solid black;
+    text-align:center;
+}
+
+div.docImprint{
+    border-bottom:1pt solid black;
+}
+
+div.abstract{
+    border-bottom:1pt solid black;
+}
+
+div.summary{
+    border-top:1pt solid black;
+}
+
+p.docAuthor{
+    text-align:center;
+}
+
+h2, span.head{
+    text-align:center;
+}
+
+span.headingNumber{
+    font-size:smaller;
+    color:grey;
+}
+
+tr.label th{
+    font-weight:bold;
+    background-color:#AAAAAA;
+}
