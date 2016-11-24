@@ -251,14 +251,3 @@ a.back-to-top {
 	-moz-border-radius: 30px;
 	border-radius: 30px;
 }
-
-/* -----------
-  Ker je fiksen header, le ta zakrije povezavo na @id. Zato spodnja rešitev
-------------*/
-
-:target:before {
-  content:"";
-  display:block;
-  height:80px; /* fixed header height*/
-  margin:-80px 0 0; /* negative fixed header height */
-}
