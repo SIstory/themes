@@ -189,7 +189,9 @@ img { margin-top: 3px; }
   border-width:0.2px;
   padding:10px; }
 
-
+.subtitle {
+  color: #8a8a8a;
+  font-size: 80%;}
 
 /* ------------------
  Novi dodani po prehodu na tei stylesheets
@@ -251,3 +253,67 @@ a.back-to-top {
 	-moz-border-radius: 30px;
 	border-radius: 30px;
 }
+
+/* literal code: from tei.css; 
+*  dodam overflow-x:auto za primere, ko so izpisane kode preširoke za manjše zaslone (jih scrolla levo in desno);
+*  dodam text-align: left; zaradi primerov, ko damo kodo egXML v figure element
+*/
+
+div.cdata{
+    white-space:pre;
+    clear:both;
+}
+
+pre,
+div.pre,
+div.pre_eg,
+pre.eg,
+div.eg{
+    clear:both;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-top-width:4px;
+    border-bottom-width:4px;
+    border-left-width:2px;
+    border-right-width:2px;
+    border-style:solid;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    color:#000000;
+    line-height:1.1em;
+    font-family:monospace;
+    font-size:10pt;
+    white-space:pre;
+    overflow-x: auto;
+    text-align: left;
+}
+
+div.egXML_valid{
+    background-color:#f7f9f6;
+    border-color:#c5d8bb;
+}
+div.egXML_feasible{
+    background-color:#fff9f3;
+    border-color:#ffe1ad;
+}
+div.egXML_invalid{
+    border-color:#ffe7e8;
+    background-color:#fdbbac;
+}
+/* moji barvni dodatki */
+span.element {
+    color: #000096 !important;
+    font-weight: bold !important;
+}
+span.attribute {
+    color: #f5844c !important;
+}
+span.attributevalue {
+    color: #993300 !important;
+}
+span.comment{
+    color: #006400 !important;
+}
+
