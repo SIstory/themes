@@ -24,7 +24,11 @@ p.docAuthor{
     text-align:center;
 }
 
-h2, span.head{
+h2 {
+    text-align:center;
+}
+
+h3 {
     text-align:center;
 }
 

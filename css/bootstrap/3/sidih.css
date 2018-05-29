@@ -1,0 +1,688 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic";
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600";
+
+
+/*
+.container {
+    max-width:  970px !important;
+    width: 970px !important;
+}
+*/
+
+ 
+
+.view { min-height:600px
+    
+}
+
+/*
+###### Typography
+*/
+
+body{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    background-color:#e8e8e8;
+    color:#474747;
+}
+/*farben im main bereich sollen fr alle projekte gleichbleiben wg. kontrast und einheitlichkeit*/
+
+h1,
+h3,
+h4,
+h5,
+h6{
+    font-family:"Droid Serif", Georgia, "Times New Roman", Times, serif;
+}
+h1{
+    font-size:200%;
+    margin-bottom:0;
+}
+
+h2{
+    font-size:140%;
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    font-style:italic;
+    margin-bottom:0.8em;
+    margin-top:0.4em;
+}
+
+h3{
+    
+    color:#C82F3E; /*projektfarbe!*/
+    font-size:130%;
+    line-height:1.8em;
+}
+h4{
+    font-size:120%;
+    color:#333333;
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    font-style:italic;
+}
+
+h5{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    color:#333333;
+
+}
+
+h6{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    color:#333333;
+    font-size:100%;
+    line-height:1.5;
+
+}
+blockquote,
+cite,
+q{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:#C82F3E; /*projektfarbe!*/
+}
+
+a:hover,
+a:focus{
+    background-color:#999999;
+    color:white;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color:transparent
+}
+/*
+###### Header
+*/
+@media (max-width: 768px){
+    header h1{
+        font-size: 160%; 
+    }
+      header h2{
+        font-size: 130%; 
+    }
+    
+        
+    
+}
+@media (max-width: 568px){
+    header h1{
+        font-size: 140%; 
+    }
+      header h2{
+        font-size: 100%; 
+    }
+    
+        
+    
+}
+div.unilogo {
+    float: right;
+    margin-top:20px;
+}
+
+div a.unilogo {
+    width: 73px; 
+    height: 62px; 
+    text-decoration: none; 
+    background: none;
+}
+
+header {
+    background-color: #C82F3E;/*projektfarbe!*/
+    overflow: hidden;
+   
+   /* height: 102px;*/
+     height: 125px;
+   
+}
+header h1, header h2, div.language  {
+    color: #ffffff;
+}
+header h1{
+    margin-top:37px;
+}
+div.language {
+    text-align:right;
+    
+    padding-bottom:10px;
+    font-size: 80%;
+}
+div.language a, div.language a:hover, div.language a:focus {
+    color:#ffffff;
+    background:transparent;
+    
+}
+
+/*
+###### Navbar
+*/
+/*Farbschema fÃ¼r Navbar:*/
+.navbar-default {
+  background-color: #475862;
+  
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-weight:bold;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff; 
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #999999;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #999999;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #999999;
+}
+.navbar-default .navbar-toggle {
+  border-color: #999999;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #999999;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #999999;
+  }  
+}
+
+ /*Eckige Searchbox:*/
+ nav#nav .input-group .form-control {
+     border-radius:0;
+ }
+ nav#nav .input-group-btn>.btn{
+     border-radius:0;
+ }
+ 
+/* Eckige Navbar*/
+.navbar{
+    border-radius:0;
+}
+
+/*Anpassung padding*/
+/*.navbar > div.container:first-child{
+    padding-left:10px;
+    padding-right:10px;
+}*/
+.navbar{
+    margin-bottom:30px;
+    border:none;
+}
+
+/*Responsive Navbar (Klasse hidden-lg etc.) Dadurch:*/
+.navbar-collapse{
+    padding-left:0;
+}
+form.navbar-form.navbar-right{
+    margin-left: 0;
+}
+
+ul.nav.navbar-nav{
+    margin:0;
+}
+
+/*Sticky Navbar*/
+#nav {
+  width: 100%;
+  position:static;
+}
+
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+/*Searchbox stylish*/
+.stylish-input-group .input-group-addon{
+    background: white !important;
+    border-left:none;
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+
+
+/*
+nderungen fr dic
+ */
+#nav{
+    margin-bottom:0px
+}
+
+#bs-example-navbar-collapse-1{
+margin-left:-5px;
+   margin-right:-5px
+    
+}
+
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+	display: block;
+	margin-top:0px
+	}
+
+#nav .navbar-nav>li>a:hover {
+    background-color: #999999;   
+}
+
+.dropdown-menu>li>a{
+    padding: 5px 20px;
+}
+.dropdown-menu>li>a:hover{
+    background-color: #e3e3e3;
+    
+}
+
+.navbar-nav>li>.dropdown-menu{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dropdown-menu{
+    padding: 0px 0;   
+border-width:0px 0px 0px 0px ;
+border-style:solid;
+border-color:#e3e3e3;
+background-color: rgba(255, 255, 255, 1);
+}
+
+
+.dropdown-menu>.active>a{
+    color: black;
+text-decoration: none;
+background-color: #e3e3e3;
+outline: 0;
+}
+.dropdown-menu>.active>a:hover{
+    color: black;
+text-decoration: none;
+background-color: #e3e3e3;
+outline: 0;
+}
+
+
+
+.dropdown-menu .divider{
+    margin: 0px 0;
+}
+
+#mainlink{
+    
+}
+/*
+#nav .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #C82F3E;
+}
+*/
+
+
+/*
+###### Main
+
+*/
+main a:hover, main a:focus {
+    background-color:transparent;
+    color:#C82F3E; /*projektfarbe!*/
+}
+
+
+
+main p {line-height:1.5;
+margin-bottom:15px;}
+
+
+/* Boxen */
+
+.panel{
+    box-shadow:none;
+    background-color:#ffffff;
+    border-radius:0;
+    padding-right:20px;
+    padding-left:20px;
+    margin-bottom:0px;
+    display: flex;
+   flex-direction:column;
+   align-content:stretch; 
+   width: 100%;
+   height: 100%;
+   padding-bottom: 15px
+}
+
+.flex, .flex > article[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+
+
+/*Abstand*/
+.up{
+    margin-top:20px; 
+}
+
+.down {
+    margin-bottom:20px;
+}
+
+
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9{
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+
+.stickyHeaderbox 
+{
+    height:75px; 
+    border-bottom:5px solid #E8E8E8; 
+    border-left:0px;  
+    border-right:0px;  
+    border-top: 20px solid #E8E8E8; 
+    background-color:#F4F5F6; 
+    padding-top:5px
+}
+
+.Headerbox{
+    margin-bottom:5px;  
+    margin-top:20px; 
+    border-left: 0px;
+    border-right:0px; 
+    min-height:50px; 
+    background-color:#F4F5F6; 
+    padding-top:5px; 
+    padding-bottom:5px;
+}
+
+#headerbox {
+    border:0px
+}
+
+#kachel{
+   
+    padding:0px;
+    
+    
+}
+
+
+#kachelbild:hover{
+    opacity:0.7;
+    
+    
+}
+#kachelbild{
+    opacity:1
+}
+
+
+
+
+.box a {
+display:block;
+height:100%;
+text-decoration:none
+
+
+}
+.box p, .box h3 {
+    color:white
+}
+
+
+/*
+###### Footer
+
+*/
+
+footer {
+    background-color: #475862; 
+    padding-bottom: 4em;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+footer h6 {
+     color: inherit;
+     background-color: inherit;
+     border-bottom: 1px solid #ffffff;
+     margin-bottom: 1em;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover, footer a:focus {
+    background-color: #475862;
+    text-decoration:underline;
+    
+}
+
+.logo{ 
+height: 50px;
+margin-right:2em
+
+    
+}
+
+.logol{
+    height:35px;
+}
+
+.quicklinks a:hover{
+text-decoration:none;   
+}
+
+
+
+
+
+
+
+
+/*Karussel*/
+
+.carousel-control.right, 
+.carousel-control.left{
+    background-image: none
+} 
+
+/*Listen*/
+#navigation{
+    list-style-type: none;
+    padding: 0;
+margin:0;
+}
+
+.table#list>tbody>tr>td {
+    border-top:0px
+}
+table ul { 
+padding: 0;
+margin:0;
+}
+	table ul li { list-style-type: none; }
+	
+	/*Tabellen-Listen*/
+	
+	#list>tbody>tr>td{
+	    padding:5px
+	}
+	
+	#liste_literatur{
+	    list-style-type: none;
+	    padding-left: 20px;
+	    background-image:url('http://gams.uni-graz.at/dic/images/literatur.png');
+	    background-repeat:no-repeat;
+	    background-position:left 3px;
+	    background-size:auto 15px;                                                                                              
+	}
+	#liste_quellen{
+	    list-style-type: none;
+	    padding-left: 20px;
+	    background-image:url('http://gams.uni-graz.at/dic/images/quelle.png');
+	    background-repeat:no-repeat;
+	    background-position:left 3px;
+	    background-size:auto 15px;                                                                                              
+	}
+	#liste_personen{
+	    list-style-type: none;
+	    padding-left: 20px;
+	    background-image:url('http://gams.uni-graz.at/dic/images/person.png');
+	    background-repeat:no-repeat;
+	    background-position:left 3px;
+	    background-size:auto 15px;                                                                                              
+	}
+	#liste_varianten{
+	    list-style-type: none;
+	    padding-left: 20px;
+	    background-image:url('http://gams.uni-graz.at/dic/images/variante.png');
+	    background-repeat:no-repeat;
+	    background-position:left 3px;
+	    background-size:auto 15px;                                                                                              
+	}
+	#liste_werke{
+	    list-style-type: none;
+	    padding-left: 20px;
+	    background-image:url('http://gams.uni-graz.at/dic/images/werk.png');
+	    background-repeat:no-repeat;
+	    background-position:left 3px;
+	    background-size:auto 15px;                                                                                              
+	}
+	
+	
+/*Bilder*/
+
+.unilogo>img{
+    margin-top:10px
+}
+
+/*buttons*/
+
+.vollansicht{
+    float:right;opacity:1;
+    font-size:12px;
+     background-color:white; 
+    color:#C82F3E
+}
+
+.vollansicht:hover
+{
+    float:right;opacity:1;
+    font-size:12px;
+   
+    background-color:#C82F3E; 
+    color:white
+}
+
+
+/* Dodajanje mojih lastnih */
+a.back-to-top {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+
