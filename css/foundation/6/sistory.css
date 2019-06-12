@@ -77,12 +77,16 @@ div.title-bar-left > a {
   min-width: 400px;
   }
 
+/* Odstranim moje oblikovanje tabel
 th {
     border:3px solid #333333;
 }
 td {
     border:1px solid #333333;
 }
+
+ */
+
 
 /* -----------------
    Definition list
@@ -317,4 +321,22 @@ span.comment{
     color: #006400 !important;
 }
 
+/* ODD TEI iz https://www.tei-c.org/release/xml/tei/stylesheet/odd.css */
+span.tag:before{
 
+}
+span.tag:after{
+
+}
+span.gi,
+span.tag{
+}
+span.att{
+
+}
+span.att:before{
+    content:"@";
+}
+span.ident{
+    font-weight:bold;
+}
