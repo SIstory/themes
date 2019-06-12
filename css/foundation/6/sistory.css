@@ -77,15 +77,7 @@ div.title-bar-left > a {
   min-width: 400px;
   }
 
-/* Odstranim moje oblikovanje tabel
-th {
-    border:3px solid #333333;
-}
-td {
-    border:1px solid #333333;
-}
-
- */
+/* Odstranim moje oblikovanje tabel: th { border:3px solid #333333;} td {border:1px solid #333333;} */
 
 
 /* -----------------
